@@ -84,9 +84,9 @@ This script provides basic user account management functionalities such as creat
     else
         echo "User does not exist!"
     fi
-}
+   }
    - Enter the username and the new password when prompted.
-
+   ```
 4. **List All Users**:
    ```bash
   list_users() {
