@@ -129,7 +129,7 @@ awk '{for (i=5; i<=NF; i++) printf $i ""; print ""}' Linux_2k.log | sort | uniq 
 #### Output
 
 ```bash
-  43 logrotate:ALERTexitedabnormallywith[1]
+     43 logrotate:ALERTexitedabnormallywith[1]
      16 named[2306]:notifyquestionsectioncontainsnoSOA
       7 syslogd1.4.1:restart.
       6 cups:cupsdstartupsucceeded
