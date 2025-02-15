@@ -1,7 +1,10 @@
 # Process Management & Monitoring
 
 ## Objective
-This guide provides step-by-step instructions to start a background process, monitor it using various Linux utilities, and then terminate the process while verifying its termination.
+1.Start a background process (ping google.com > ping_test.log &).
+2.Use ps, top, and htop to monitor it.
+3.Kill the process and verify it's gone.
+
 
 ---
 
