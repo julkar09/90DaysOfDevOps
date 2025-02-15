@@ -92,9 +92,8 @@ This script provides basic user account management functionalities such as creat
   list_users() {
     cut -d: -f1 /etc/passwd
 }
-  
-   
-   - The script will output a list of all user accounts.
+    ```
+    - The script will output a list of all user accounts.
 
 5. **Display Help**:
    ```bash
