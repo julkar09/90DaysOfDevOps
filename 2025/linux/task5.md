@@ -108,6 +108,13 @@ If `ping` is not listed, it is no longer running.
 | Verify process termination | `ps aux | grep ping` |
 
 ---
+## Terminal img
+
+<img width="633" alt="task_5 1" src="https://github.com/user-attachments/assets/716813bd-7288-43e3-b2ae-fbd1e8cc8712" />
+
+<img width="916" alt="taak_5 2" src="https://github.com/user-attachments/assets/5422730b-6653-492b-920f-110993a93843" />
+
+
 
 
 
