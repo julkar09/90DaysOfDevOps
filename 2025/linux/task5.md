@@ -1,6 +1,6 @@
 # Process Management & Monitoring
 
-## Overview
+## Objective
 This guide provides step-by-step instructions to start a background process, monitor it using various Linux utilities, and then terminate the process while verifying its termination.
 
 ---
