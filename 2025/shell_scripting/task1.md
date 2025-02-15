@@ -88,12 +88,13 @@ This script provides basic user account management functionalities such as creat
    - Enter the username and the new password when prompted.
    ```
 4. **List All Users**:
-    bash
-  list_users() {
-    cut -d: -f1 /etc/passwd
-}  
+    ```bash
+       list_users() {
+       cut -d: -f1 /etc/passwd
+    }
+  
     - The script will output a list of all user accounts.
-    
+   
 5. **Display Help**:
     ```bash
    show_help() {
@@ -103,7 +104,7 @@ This script provides basic user account management functionalities such as creat
     -r, --reset     Reset a user's password
     -l, --list      List all users
     -h, --help      Display this help message\n\n"
-}
+   }
    - The script will display the help message with available options.
    ```
 ## Script Details
