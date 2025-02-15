@@ -69,7 +69,7 @@ To automate the backup process, schedule it to run daily at 2 AM:
    ```
 2. Add the following line at the end:
    ```sh
-   0 2 * * * /home/user/backup_script.sh
+   0 0 * * * /home/user/backup_script.sh
    ```
 3. Save and exit.
 
@@ -80,5 +80,6 @@ chmod +x /home/user/backup_script.sh # Make it executable
 /home/user/backup_script.sh          # Run it manually
 crontab -e                           # Schedule it with cron
 ```
+
 
 
