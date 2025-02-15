@@ -80,6 +80,10 @@ chmod +x /home/user/backup_script.sh # Make it executable
 /home/user/backup_script.sh          # Run it manually
 crontab -e                           # Schedule it with cron
 ```
+## Terminal img
+<img width="461" alt="task_6" src="https://github.com/user-attachments/assets/3a212d00-41eb-443c-a014-ad917d352b1f" />
+<img width="404" alt="task_6 1" src="https://github.com/user-attachments/assets/3f796c62-fd8a-4318-99eb-ec439bbd0e50" />
+
 
 
 
