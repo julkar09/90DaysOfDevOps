@@ -125,6 +125,13 @@ These commands are frequently used for troubleshooting and network management.
 
 Networking knowledge is crucial for DevOps engineers working with cloud environments, CI/CD pipelines, and infrastructure automation. A strong grasp of these concepts ensures smooth deployments, security, and efficient troubleshooting.
 
+---
+**References:**
+- RFC 791 (IP Protocol Specification)
+- RFC 793 (TCP Protocol Specification)
+- AWS Networking Documentation
+- Linux man pages for networking utilities
 
+---
 
 
