@@ -18,19 +18,12 @@ This script provides basic user account management functionalities such as creat
 - The script should be run in a `bash` shell.
 
 ### Running the Script
-
-1. **Clone the Repository** (if applicable):
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-
-2. **Make the Script Executable**:
+1. **Make the Script Executable**:
    ```bash
    chmod +x user_management.sh
    ```
 
-3. **Run the Script**:
+2. **Run the Script**:
    ```bash
    ./user_management.sh
    ```
@@ -100,6 +93,7 @@ This script provides basic user account management functionalities such as creat
   list_users() {
     cut -d: -f1 /etc/passwd
 }
+  
    
    - The script will output a list of all user accounts.
 
