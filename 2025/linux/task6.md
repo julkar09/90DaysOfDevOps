@@ -1,6 +1,6 @@
 # Automate Backups with Shell Scripting
 
-## Overview
+## Objectives
 This project provides a shell script to automate the backup of the `/devops_workspace` directory. The backup is stored in `/backups` with a filename containing the current date. The script also displays a success message in green text upon successful execution. The backup process is scheduled to run daily at 2 AM using cron.
 
 ## Features
