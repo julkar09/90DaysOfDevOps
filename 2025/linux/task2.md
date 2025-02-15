@@ -60,7 +60,7 @@ Run the following command:
 chmod 640 devops_workspace/project_notes.txt
 ```
 
-### 2.3 Verify Permissions
+### 3 Verify Permissions
 
 Use the `ls -l` command to verify the permissions:
 
