@@ -53,32 +53,66 @@ This script provides basic user account management functionalities such as creat
 
 1. **Create a User**:
    ```bash
-   ./user_management.sh -c
+    read -p "Enter username: " username
+
+    if id "$username" &>/dev/null; then
+        echo "User already exists! Try a different username."
+    else
+        read -sp "Enter password: " password
+        echo
+        sudo useradd -m -p $(openssl passwd -1 "$password") "$username"
    ```
    - Enter the desired username and password when prompted.
 
 2. **Delete a User**:
    ```bash
-   ./user_management.sh -d
+   delete_user() {
+    read -p "Enter username to delete: " username
+
+    if id "$username" &>/dev/null; then
+        sudo userdel -r "$username"
+        echo "======== User deleted successfully ==========="
+    else
+        echo "User does not exist!"
+    fi
    ```
    - Enter the username of the account you wish to delete.
 
 3. **Reset a User's Password**:
    ```bash
-   ./user_management.sh -r
-   ```
+   reset_password() {
+    read -p "Enter username to reset password: " username
+
+    if id "$username" &>/dev/null; then
+        read -sp "Enter new password: " password
+        echo
+        echo -e "$password\n$password" | sudo passwd "$username" &>/dev/null
+        echo "Password reset successfully!"
+    else
+        echo "User does not exist!"
+    fi
+}
+
    - Enter the username and the new password when prompted.
 
 4. **List All Users**:
    ```bash
-   ./user_management.sh -l
-   ```
+  list_users() {
+    cut -d: -f1 /etc/passwd
+}
+   
    - The script will output a list of all user accounts.
 
 5. **Display Help**:
    ```bash
-   ./user_management.sh -h
-   ```
+   show_help() {
+    echo -e "\n\n======== CHOOSE AN OPTION ========
+    -c, --create    Create a new user
+    -d, --delete    Delete an existing user
+    -r, --reset     Reset a user's password
+    -l, --list      List all users
+    -h, --help      Display this help message\n\n"
+}
    - The script will display the help message with available options.
 
 ## Script Details
