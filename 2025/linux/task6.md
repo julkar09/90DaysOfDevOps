@@ -81,7 +81,8 @@ chmod +x /home/user/backup_script.sh # Make it executable
 crontab -e                           # Schedule it with cron
 ```
 ## Terminal img
-<img width="461" alt="task_6" src="https://github.com/user-attachments/assets/3a212d00-41eb-443c-a014-ad917d352b1f" />
+![WhatsApp Image 2025-02-15 at 21 47 54_6ec571a2](https://github.com/user-attachments/assets/2a165128-a949-4a03-a190-bc73ed06baf9)
+
 <img width="404" alt="task_6 1" src="https://github.com/user-attachments/assets/3f796c62-fd8a-4318-99eb-ec439bbd0e50" />
 
 
